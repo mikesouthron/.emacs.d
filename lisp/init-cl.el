@@ -5,7 +5,7 @@
 (require 'paredit)
 
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
-(setq inferior-lisp-program "sbcl")
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
 
 (add-hook 'lisp-mode-hook '(lambda ()
                               (unless (get-process "SLIME Lisp")
