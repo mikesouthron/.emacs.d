@@ -17,6 +17,7 @@
 (require 'init-misc)
 (require 'init-company-mode)
 (require 'init-rust)
+(require 'init-cl)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
