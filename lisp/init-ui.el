@@ -1,5 +1,5 @@
 (require 'init-elpa)
-(require-package 'atom-one-dark-theme)
+;(require-package 'atom-one-dark-theme)
 (require-package 'golden-ratio)
 
 (require 'golden-ratio)
@@ -12,7 +12,6 @@
   (scroll-bar-mode -1))
 
 (set-face-attribute 'default nil :height 140)
-(setq-default line-spacing 0.4)
 
 (setq
       x-select-enable-clipboard t
@@ -21,11 +20,9 @@
       apropos-do-all t
       mouse-yank-at-point t)
 
-(load-theme 'atom-one-dark t)
-
 (blink-cursor-mode 0)
 (setq-default cursor-type 'bar)
-(set-cursor-color "#cccccc")
+;(set-cursor-color "#cccccc")
 (setq ring-bell-function 'ignore)
 
 (golden-ratio-mode 1)

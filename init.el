@@ -16,7 +16,7 @@
 (require 'init-navigation)
 (require 'init-misc)
 (require 'init-company-mode)
-(require 'init-rust)
+;(require 'init-rust)
 (require 'init-cl)
 
 (custom-set-variables
