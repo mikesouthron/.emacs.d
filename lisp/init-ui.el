@@ -11,7 +11,7 @@
 (when (fboundp 'scroll-bar-mode)
   (scroll-bar-mode -1))
 
-(set-face-attribute 'default nil :height 140)
+;(set-face-attribute 'default nil :height 140)
 
 (setq
       x-select-enable-clipboard t
@@ -26,5 +26,6 @@
 (setq ring-bell-function 'ignore)
 
 (golden-ratio-mode 1)
+(global-linum-mode 1)
 
 (provide 'init-ui)

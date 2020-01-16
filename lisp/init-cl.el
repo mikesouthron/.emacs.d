@@ -4,8 +4,13 @@
 
 (require 'paredit)
 
-(load (expand-file-name "~/quicklisp/slime-helper.el"))
-(setq inferior-lisp-program "sbcl")
+(require 'geiser)
+(setq geiser-racket-binary "c:/Program Files/Racket/Racket.exe")
+
+(load (expand-file-name "c:/Users/mike.southron/quicklisp/slime-helper.el"))
+(setq inferior-lisp-program "c:/SBCL-2.0.0/sbcl")
+
+;;(setq inferior-lisp-program "java -jar C:/abcl/abcl.jar")
 
 (add-hook 'lisp-mode-hook '(lambda ()
                               (unless (get-process "SLIME Lisp")
